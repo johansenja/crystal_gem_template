@@ -1,6 +1,8 @@
 CRYSTAL = crystal
 TARGET = ../../lib/my_gem.bundle
 
+install: all
+
 all: shards $(TARGET)
 
 shards:
