@@ -4,6 +4,6 @@ find_executable("crystal") or abort <<~ERR
   Please check out https://crystal-lang.org/ for information on how to install it.
 ERR
 
-# # this is pretty horrible
-# def create_makefile(_,_ = nil);end
-# create_makefile nil
+# this is pretty horrible
+def create_makefile(_,_ = nil);end
+create_makefile nil
