@@ -4,9 +4,9 @@ TARGET = ../../lib/my_gem.bundle
 all: shards $(TARGET)
 
 shards:
-	crystal shards
+	shards
 
-$(TARGET): ./src/my_gem.cr
+$(TARGET): ./src/crystal_gem_template.cr
 	$(CRYSTAL) $< --link-flags "-dynamic -bundle -Wl,-undefined,dynamic_lookup" -o $(TARGET)
 
 clean:

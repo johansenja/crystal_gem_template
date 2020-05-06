@@ -1,0 +1,11 @@
+name: crysal_gem_template
+version: 0.1.0
+
+authors:
+  - johansenja
+
+targets:
+  crystal_gem_template:
+    main: src/crystal_gem_template.cr
+
+dependencies:
