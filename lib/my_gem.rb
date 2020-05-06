@@ -1,2 +1,2 @@
-require_relative "crystal_gem_demo.bundle"
-require_relative "./crystal_gem_demo/version"
+require_relative "crystal_gem_template.bundle"
+require_relative "./crystal_gem_template/version"

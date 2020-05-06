@@ -15,10 +15,10 @@ def hello_wrapper(self : CrRuby::VALUE, addressee : CrRuby::VALUE)
   CrRuby.rb_str_new_cstr(hello_addressee)
 end
 
-fun init = Init_crystal_gem_demo
+fun init = Init_crystal_gem_template
   GC.init
   LibCrystalMain.__crystal_main(0, Pointer(Pointer(UInt8)).null)
 
-  crystal_gem_demo = CrRuby.rb_define_module("MyGem")
-  CrRuby.rb_define_method(crystal_gem_demo, "hello", ->hello_wrapper, 1)
+  crystal_gem_template = CrRuby.rb_define_module("MyGem")
+  CrRuby.rb_define_method(crystal_gem_template, "hello", ->hello_wrapper, 1)
 end

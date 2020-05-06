@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    crystal_gem_demo (0.1)
+    crystal_gem_template (0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +14,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  crystal_gem_demo!
+  crystal_gem_template!
   rake-compiler
 
 BUNDLED WITH

@@ -1,24 +1,25 @@
-# Crystal Gem Demo
+# Crystal Gem Template
+
 A demo Ruby gem, written in Crystal. Very much in α.
 
 Targetting usage like any other Ruby gem:
 
-`gem install crystal_gem_demo`
+`gem install crystal_gem_template`
 
 or
 
 ```ruby
 # Gemfile
-gem "crystal_gem_demo"
+gem "crystal_gem_template"
 ```
 
 then
 
 ```ruby
 # app.rb
-require 'crystal_gem_demo'
+require 'crystal_gem_template'
 
-include CrystalGemDemo
+include CrystalGemTemplate
 
 hello('world') # => "hello world"
 ```
