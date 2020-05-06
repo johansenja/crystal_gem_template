@@ -10,5 +10,4 @@ Gem::Specification.new do |s|
   s.files         = Dir["./**/*"]
   s.extensions    = %w[ext/crystal_gem_template/extconf.rb]
   s.require_paths = ['./lib/']
-  s.add_development_dependency 'rake-compiler'
 end

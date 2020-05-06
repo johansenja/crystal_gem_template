@@ -1,21 +1,17 @@
 PATH
   remote: .
   specs:
-    crystal_gem_template (0.1)
+    crystal_gem_template (0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (13.0.1)
-    rake-compiler (1.1.0)
-      rake
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   crystal_gem_template!
-  rake-compiler
 
 BUNDLED WITH
    1.17.3

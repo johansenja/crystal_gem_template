@@ -1,5 +1,13 @@
-require "rake/extensiontask"
+require "bundler/gem_tasks"
 
-Rake::ExtensionTask.new "crystal_gem_template" do |ext|
-  ext.lib_dir = "lib/"
+desc "compile the Crystal native extensions"
+task :compile do
+  puts "compiling native extensions"
+  `cd ext/crystal_gem_template && crystal deps && make clean && make & cd ../../`
+end
+
+desc "cleaning up compiled binaries"
+task :clean do
+  puts "cleaning up extensions"
+  `cd ext/crystal_gem_template && make clean && cd ../../`
 end
