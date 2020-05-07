@@ -2,7 +2,7 @@ require "./lib/crystal_gem_template/version"
 
 Gem::Specification.new do |s|
   s.name          = 'crystal_gem_template'
-  s.version       = MyGem::VERSION
+  s.version       = CrystalGemTemplate::VERSION
   s.licenses      = %w[MIT]
   s.summary       = "My first gem, written in crystal"
   s.description   = "Features include: Greeting anyone of your choice"
