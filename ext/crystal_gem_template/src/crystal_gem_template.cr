@@ -19,6 +19,6 @@ fun init = Init_crystal_gem_template
   GC.init
   LibCrystalMain.__crystal_main(0, Pointer(Pointer(UInt8)).null)
 
-  crystal_gem_template = CrRuby.rb_define_module("MyGem")
+  crystal_gem_template = CrRuby.rb_define_module("CrystalGemTemplate")
   CrRuby.rb_define_method(crystal_gem_template, "hello", ->hello_wrapper, 1)
 end
