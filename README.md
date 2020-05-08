@@ -1,17 +1,17 @@
 # Crystal Gem Template
 
-A demo Ruby gem, written in Crystal. Very much in α.
+A working demo Ruby gem, written in Crystal.
 
-Targetting usage like any other Ruby gem:
-
-`gem install crystal_gem_template`
-
-or
+## Usage:
 
 ```ruby
 # Gemfile
-gem "crystal_gem_template"
+gem "crystal_gem_template", git: "https://github.com/johansenja/crystal_gem_template.git"
 ```
+
+then
+
+`bundle install`
 
 then
 
@@ -24,6 +24,8 @@ include CrystalGemTemplate
 hello('world') # => "hello world"
 ```
 
-Not a lot going on here, clearly, but this opens the door for performant code written in Crystal, then used in Ruby apps, going via Ruby's C API.
+then
 
-TODO: get the gem to actually install properly!
+`bundle exec ruby app.rb # => hello world`
+
+Not a lot going on here, clearly, but this opens the door for performant code written in Crystal, then used in Ruby apps, going via Ruby's C API.
