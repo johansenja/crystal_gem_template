@@ -1,5 +1,5 @@
 CRYSTAL = crystal
-TARGET = ../../lib/my_gem.bundle
+TARGET = ../../lib/crystal_gem_template.bundle
 
 install: all
 
