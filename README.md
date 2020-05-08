@@ -30,6 +30,10 @@ then
 
 Not a lot going on here, clearly, but this opens the door for performant code written in Crystal, then used in Ruby apps, going via Ruby's C API.
 
+## Example as a functional gem:
+
+[levenshtein_str](https://github.com/johansenja/levenshtein_str)
+
 <hr>
 
 \*note: tested and used on MacOS, so probably doesn't work on Linux! (yet)
