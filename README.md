@@ -32,4 +32,4 @@ Not a lot going on here, clearly, but this opens the door for performant code wr
 
 <hr>
 
-* note: tested and used on MacOS, so probably doesn't work on Linux! (yet)
+\*note: tested and used on MacOS, so probably doesn't work on Linux! (yet)
